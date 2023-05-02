@@ -4,6 +4,9 @@ import com.jsp.hibernate_one_to_many_mapping_uni.service.StudentService;
 
 public class SubjectPriceUpdateController {
 
+	/*
+	 * main
+	 */
 	public static void main(String[] args) {
 		StudentService service = new StudentService();
 		service.updateSubjectPrice(112, 400, 101);
